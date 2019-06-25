@@ -20,7 +20,7 @@ Given below is a breakdown of the modifications.
 
 4) Some statements are added to the methods used to instantiate Metal Texture objects from texture descriptors.
 
-5) The window has a minimum content size. Constraints are added to the NSCollectionView and NSView widgets in IB. The width of the NSCollectionView is fixed so that when the window resized its horizontal width will not changed. The adjacent AAPLView to its right can be resized by dragging the edges/corners of the window.
+5) The window has a minimum content size. Constraints are added to the NSCollectionView and NSView widgets in IB. The width of the NSCollectionView is fixed so that when the window is resized its horizontal width will not changed. The adjacent AAPLView to its right can be resized by dragging the edges/corners of the window.
 
 
 ![screenshot](Images/MetalShowcase.gif)
