@@ -26,8 +26,13 @@ Given below is a breakdown of the modifications.
 ![screenshot](Images/MetalShowcase.gif)
 
 
+The source code has been modified to run on the Simulator of XCode 11.6 operating under macOS Catalina.
+
+![screenshot](Images/MSS_Simulator.gif)
+
+
 Notes: 
-The port implements the old way of rendering using a CVDisplayLink object even though the MTKView class is available on macOS 10.11 or later.
+The macOS port implements the old way of rendering using a CVDisplayLink object even though the MTKView class is available on macOS 10.11 or later.
 
 The collection view does not support deletion/insertion/moving of collection view items. Dragging items from Finder is not supported.
 

@@ -1,13 +1,20 @@
-//
-//  main.m
-//  MetalShaderShowcase
-//
-//  Created by mark lim pak mun on 3/8/18.
-//  Copyright © 2018 mark lim. All rights reserved.
-//
+/*
+ Copyright (C) 2014 Apple Inc. All Rights Reserved.
+ See LICENSE.txt for this sample’s licensing information
+ 
+ Abstract:
+ 
+  Application main where the application starts
+  
+ */
 
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 
-int main(int argc, const char * argv[]) {
-	return NSApplicationMain(argc, argv);
+#import "AAPLAppDelegate.h"
+
+int main(int argc, char * argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AAPLAppDelegate class]));
+    }
 }
